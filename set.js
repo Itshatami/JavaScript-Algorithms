@@ -1,7 +1,10 @@
 /*
 * Set
-* should be unique, otherways take all same values in one value;
-* it has simple access to the items inside than Arrays
+*   data is not sorted in order
+*   access elements by method
+*   length is dynamic
+*   elements should be unique, otherways It considers the items as one
+*   it has simple access to the items inside than Arrays
 */
 
 const prices = new Set()
